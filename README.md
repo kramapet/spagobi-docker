@@ -11,7 +11,7 @@ docker build -t spagobi:5.0 .
 docker run -d -P spagobi:5.0
 ```
 
-In case you haven't bind container's 8080 port to some particular port, see which port docker has chosen for your container.
+In case you haven't bind container's 8080 port to some particular port, see which port docker has chosen for your container (see column PORTS).
 
 ```
 % docker ps
